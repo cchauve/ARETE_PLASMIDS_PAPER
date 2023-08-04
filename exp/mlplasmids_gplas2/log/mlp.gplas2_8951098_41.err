@@ -1,0 +1,146 @@
+Building DAG of jobs...
+Unlocking working directory.
+Building DAG of jobs...
+Using shell: /cvmfs/soft.computecanada.ca/gentoo/2020/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	awk_nodes
+	1
+
+[Thu Aug  3 19:45:25 2023]
+Job 0: Extracting the nodes from the graph /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/data/EColi_unicycler/SAMN32247488/assembly.gfa
+
+[Thu Aug  3 19:45:25 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247488/.snakemake/log/2023-08-03T194525.082225.snakemake.log
+Building DAG of jobs...
+Unlocking working directory.
+Building DAG of jobs...
+Nothing to be done.
+Complete log: /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247488/.snakemake/log/2023-08-03T194539.926637.snakemake.log
+Building DAG of jobs...
+Unlocking working directory.
+Building DAG of jobs...
+Using shell: /cvmfs/soft.computecanada.ca/gentoo/2020/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	awk_links
+	1	gplas_coocurr
+	1	gplas_coverage
+	1	gplas_paths
+	4
+
+[Thu Aug  3 19:45:44 2023]
+Job 4: Extracting the links from the graph /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/data/EColi_unicycler/SAMN32247488/assembly.gfa
+
+[Thu Aug  3 19:45:44 2023]
+Finished job 4.
+1 of 4 steps (25%) done
+
+[Thu Aug  3 19:45:44 2023]
+Job 2: Extracting the sd k-mer coverage from the chromosome-predicted contigs
+
+[Thu Aug  3 19:45:56 2023]
+Finished job 2.
+2 of 4 steps (50%) done
+
+[Thu Aug  3 19:45:56 2023]
+Job 3: Searching for plasmid-like walks using a greedy approach
+
+[Thu Aug  3 19:46:03 2023]
+Finished job 3.
+3 of 4 steps (75%) done
+
+[Thu Aug  3 19:46:03 2023]
+Job 0: Generating weights for the set of new edges connecting plasmid unitigs
+
+[Thu Aug  3 19:46:10 2023]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247488/.snakemake/log/2023-08-03T194544.745008.snakemake.log
+Building DAG of jobs...
+Unlocking working directory.
+Building DAG of jobs...
+Using shell: /cvmfs/soft.computecanada.ca/gentoo/2020/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	combine_solutions
+	1	extract_unbinned_solutions
+	1	gplas_coocurr_final
+	1	gplas_paths_bold
+	4
+
+[Thu Aug  3 19:46:12 2023]
+Job 8: Searching for plasmid-like walks using a greedy approach
+
+[Thu Aug  3 19:46:19 2023]
+Finished job 8.
+1 of 4 steps (25%) done
+
+[Thu Aug  3 19:46:19 2023]
+Job 5: Extracting unbinned nodes from the initial run
+
+[Thu Aug  3 19:46:19 2023]
+Finished job 5.
+2 of 4 steps (50%) done
+
+[Thu Aug  3 19:46:19 2023]
+Job 3: Combinning walks from normal and bold modes
+
+[Thu Aug  3 19:46:19 2023]
+Finished job 3.
+3 of 4 steps (75%) done
+
+[Thu Aug  3 19:46:19 2023]
+Job 0: Generating weights for the set of new edges connecting plasmid unitigs
+
+[Thu Aug  3 19:46:28 2023]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247488/.snakemake/log/2023-08-03T194612.027840.snakemake.log
+Building DAG of jobs...
+Unlocking working directory.
+Building DAG of jobs...
+Using shell: /cvmfs/soft.computecanada.ca/gentoo/2020/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	gplas_coocurr_repeats
+	1	gplas_paths_repeats
+	2
+
+[Thu Aug  3 19:46:32 2023]
+Job 3: Searching for plasmid-like walks using a greedy approach
+
+[Thu Aug  3 19:46:46 2023]
+Finished job 3.
+1 of 2 steps (50%) done
+
+[Thu Aug  3 19:46:46 2023]
+Job 0: Generating weights for the set of new edges connecting plasmid unitigs
+
+Error in fix.by(by.y, y) : 'by' must specify a uniquely valid column
+Calls: merge -> merge -> merge.data.frame -> fix.by
+Execution halted
+[Thu Aug  3 19:46:55 2023]
+Error in rule gplas_coocurr_repeats:
+    jobid: 0
+    output: results/SAMN32247488_bins.tab, results/SAMN32247488_results.tab, results/SAMN32247488_chromosome_repeats.tab
+
+RuleException:
+CalledProcessError in line 253 of /project/6069942/PLASMIDS/tools/gplas2/gplas/snakefiles/otherclassifiers.smk:
+Command 'set -euo pipefail;  Rscript --vanilla /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247488/.snakemake/scripts/tmp0_06z78r.gplas_coocurrence_repeats.R' returned non-zero exit status 1.
+  File "/project/6069942/PLASMIDS/tools/gplas2/gplas/snakefiles/otherclassifiers.smk", line 253, in __rule_gplas_coocurr_repeats
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/python/3.8.0/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247488/.snakemake/log/2023-08-03T194632.697036.snakemake.log
+cp: cannot stat '/home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247488/results/SAMN32247488_results.tab': No such file or directory

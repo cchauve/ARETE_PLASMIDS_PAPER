@@ -1,0 +1,91 @@
+Building DAG of jobs...
+Unlocking working directory.
+Building DAG of jobs...
+Using shell: /cvmfs/soft.computecanada.ca/gentoo/2020/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	awk_nodes
+	1
+
+[Thu Aug  3 19:45:24 2023]
+Job 0: Extracting the nodes from the graph /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/data/EColi_unicycler/SAMN32247404/assembly.gfa
+
+[Thu Aug  3 19:45:24 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247404/.snakemake/log/2023-08-03T194524.079876.snakemake.log
+Building DAG of jobs...
+Unlocking working directory.
+Building DAG of jobs...
+Nothing to be done.
+Complete log: /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247404/.snakemake/log/2023-08-03T194540.206943.snakemake.log
+Building DAG of jobs...
+Unlocking working directory.
+Building DAG of jobs...
+Using shell: /cvmfs/soft.computecanada.ca/gentoo/2020/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	awk_links
+	1	gplas_coocurr
+	1	gplas_coverage
+	1	gplas_paths
+	4
+
+[Thu Aug  3 19:45:45 2023]
+Job 4: Extracting the links from the graph /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/data/EColi_unicycler/SAMN32247404/assembly.gfa
+
+[Thu Aug  3 19:45:46 2023]
+Finished job 4.
+1 of 4 steps (25%) done
+
+[Thu Aug  3 19:45:46 2023]
+Job 2: Extracting the sd k-mer coverage from the chromosome-predicted contigs
+
+[Thu Aug  3 19:45:59 2023]
+Finished job 2.
+2 of 4 steps (50%) done
+
+[Thu Aug  3 19:45:59 2023]
+Job 3: Searching for plasmid-like walks using a greedy approach
+
+[Thu Aug  3 19:46:55 2023]
+Finished job 3.
+3 of 4 steps (75%) done
+
+[Thu Aug  3 19:46:55 2023]
+Job 0: Generating weights for the set of new edges connecting plasmid unitigs
+
+[Thu Aug  3 19:47:11 2023]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247404/.snakemake/log/2023-08-03T194545.564854.snakemake.log
+Building DAG of jobs...
+Unlocking working directory.
+Building DAG of jobs...
+Using shell: /cvmfs/soft.computecanada.ca/gentoo/2020/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	gplas_coocurr_repeats
+	1	gplas_paths_repeats
+	2
+
+[Thu Aug  3 19:47:13 2023]
+Job 3: Searching for plasmid-like walks using a greedy approach
+
+[Thu Aug  3 19:47:41 2023]
+Finished job 3.
+1 of 2 steps (50%) done
+
+[Thu Aug  3 19:47:41 2023]
+Job 0: Generating weights for the set of new edges connecting plasmid unitigs
+
+[Thu Aug  3 19:47:53 2023]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/exp/mlplasmids_gplas2/aux/SAMN32247404/.snakemake/log/2023-08-03T194713.296298.snakemake.log
