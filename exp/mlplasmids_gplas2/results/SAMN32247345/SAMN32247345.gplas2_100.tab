@@ -1,0 +1,6 @@
+number Contig_name Prob_Chromosome Prob_Plasmid Prediction length coverage Bin
+57 S57_LN:i:1329_dp:f:11.063128570211868 0 1 Repeat 1329 11.06 1
+21 S21_LN:i:79861_dp:f:1.158920375937225 0.11 0.89 Plasmid 79861 1.16 1
+39 S39_LN:i:23437_dp:f:1.1886555970801318 0.06 0.94 Plasmid 23437 1.19 1
+46 S46_LN:i:15523_dp:f:1.128075820633505 0.29 0.71 Plasmid 15523 1.13 1
+54 S54_LN:i:1719_dp:f:0.9550067630622865 0.45 0.55 Plasmid 1719 0.96 1

@@ -1,0 +1,71 @@
+SAMN32247291
+Conversion GFA -> FASTA already done
+mlplasmids
+[1] "Threshold: 0.7"
+[1] "Species: Escherichia coli"
+[1] "Full output: TRUE"
+gplas2
+                     Algorithm Modularity Original_component Decision
+1                     Walktrap          0                  2 No_split
+2                Leading-eigen          0                  2 No_split
+3                      Louvain          0                  2 No_split
+4 Independent-single_component          0                  1 No_split
+5 Independent-single_component          0                  3 No_split
+6 Independent-single_component          0                  4 No_split
+7 Independent-single_component          0                  5 No_split
+null device 
+          1 
+[1] "We found repeated elements associated to plasmid predictions"
+
+
+  _______ .______    __           ___           _______.
+ /  _____||   _  \  |  |         /   \         /       |
+|  |  __  |  |_)  | |  |        /  ^  \       |   (----`
+|  | |_ | |   ___/  |  |       /  /_\  \       \   \    
+|  |__| | |  |      |  `----. /  _____  \  .----)   |   
+ \______| | _|      |_______|/__/     \__\ |_______/    
+
+##################################################################
+Your results will be named SAMN32247291
+Input graph:  /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/data/EColi_unicycler/SAMN32247291/assembly.gfa
+Classifier:  predict
+Threshold for predicting plasmid-derived contigs:  0.5
+Number of plasmid walks created per node:  20
+Threshold of gplas scores:  0.1
+Minimum frequency to consider an edge:  0.1
+Modularity threshold used to partition the network:  0.2
+Coverage SD for bold mode:  5
+Minimum sequence length:  100
+##################################################################
+Checking if prediction file is correctly formatted.
+
+[1] "Running the script"
+[1] "Congrats! Your prediction file is correctly formatted. Now we are moving on to predicting your plasmids."
+
+
+
+Adding repeated elements to the predictions
+
+
+Intermediate files will be deleted. If you want to keep these files, use the -k flag
+
+
+  _______ .______    __           ___           _______.
+ /  _____||   _  \  |  |         /   \         /       |
+|  |  __  |  |_)  | |  |        /  ^  \       |   (----`
+|  | |_ | |   ___/  |  |       /  /_\  \       \   \    
+|  |__| | |  |      |  `----. /  _____  \  .----)   |   
+ \______| | _|      |_______|/__/     \__\ |_______/    
+
+
+
+
+
+Congratulations! Prediction succesfully done.
+
+Your results are in results/
+
+We hope it helps your research, thanks for using gplas version 1.1.1.dev4+g152b206!
+
+Please cite: https://academic.oup.com/bioinformatics/article/36/12/3874/5818483
+

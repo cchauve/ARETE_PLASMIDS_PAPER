@@ -1,0 +1,5 @@
+number Contig_name Prob_Chromosome Prob_Plasmid Prediction length coverage Bin
+19 S19_LN:i:89940_dp:f:0.8080989958801005 0.18 0.82 Plasmid 89940 0.81 1
+30 S30_LN:i:23505_dp:f:0.8606077734878023 0.38 0.62 Plasmid 23505 0.86 1
+32 S32_LN:i:12516_dp:f:0.7919044398758597 0.32 0.68 Plasmid 12516 0.79 1
+36 S36_LN:i:6993_dp:f:7.048436565544193 0.37 0.63 Plasmid 6993 7.05 Unbinned

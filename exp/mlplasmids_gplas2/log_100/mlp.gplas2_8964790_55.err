@@ -1,0 +1,6 @@
+usage: gplas -i INPUT -c {extract,predict} [-n NAME] [-P PREDICTION] [-k]
+             [-t THRESHOLD_PREDICTION] [-b BOLD_WALKS]
+             [-r REPEATS_COVERAGE_SD] [-x NUMBER_ITERATIONS] [-f FILT_GPLAS]
+             [-e EDGE_THRESHOLD] [-q MODULARITY_THRESHOLD] [-l LENGTH_FILTER]
+             [-h] [-v]
+gplas: error: argument -n/--name: expected one argument

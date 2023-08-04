@@ -1,0 +1,3 @@
+number Contig_name Prob_Chromosome Prob_Plasmid Prediction length coverage Bin
+29 S29_LN:i:70699_dp:f:0.8758311420326133 0.16 0.84 Plasmid 70699 0.88 1
+50 S50_LN:i:5163_dp:f:3.669620675590493 0.01 0.99 Plasmid 5163 3.67 2
